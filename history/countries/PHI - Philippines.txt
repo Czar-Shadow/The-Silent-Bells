@@ -1,0 +1,39 @@
+﻿capital = 327
+
+oob = "PHI_1958"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1935.9.15"
+	election_frequency = 72
+	elections_allowed = no
+}
+set_popularities = {
+	autocracy = 82
+	fascism = 9
+	radical_socialism = 9
+}
+
+create_country_leader = {
+	name = "Japanese Occupation Council"
+	desc = ""
+	picture = "TSB_jap_.dds"
+	expire = "1965.1.1"
+	ideology = autocracy_subtype
+	traits = {
+		#
+	}
+}
