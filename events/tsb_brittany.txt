@@ -1,0 +1,214 @@
+﻿#################
+# Breton Events #
+#################
+
+add_namespace = brittany
+
+# Brittany Declares Independence
+country_event = {
+	id = brittany.1
+	title = brittany.1.t
+	desc = brittany.1.d
+	picture = GFX_report_event_german_volunteers
+	
+	trigger = {
+		tag = FRA
+		OR = {
+			has_country_flag = darnand_takes_control
+			has_country_flag = lagardelle_takes_control
+			has_country_flag = deat_takes_control
+			has_country_flag = binet_takes_control
+		}
+
+	}
+
+	mean_time_to_happen = { days = 3 }
+	fire_only_once = yes
+	
+	option = {
+		name = brittany.1.a
+		BRI = {
+			change_tag_from = FRA
+		}
+
+		14 = {
+ 			add_core_of = BRI
+		}
+		848 = {
+ 			add_claim_by = BRI
+		}
+		854 = {
+ 			add_claim_by = BRI
+		}
+
+		848 = {
+ 			set_demilitarized_zone = yes
+		}
+		854 = {
+ 			set_demilitarized_zone = yes
+		}
+
+		BRI = { transfer_state = 14 }
+		BRI = { transfer_state = 848 }
+		BRI = { transfer_state = 854 }
+
+		BRI = { load_oob = BRI_revolt }
+		set_country_flag = brittany_free
+
+	}
+
+	option = {
+		name = brittany.1.b
+
+		14 = {
+ 			add_core_of = BRI
+		}
+		848 = {
+ 			add_claim_by = BRI
+		}
+		854 = {
+ 			add_claim_by = BRI
+		}
+
+		848 = {
+ 			set_demilitarized_zone = yes
+		}
+		854 = {
+ 			set_demilitarized_zone = yes
+		}
+
+		BRI = { transfer_state = 14 }
+		BRI = { transfer_state = 848 }
+		BRI = { transfer_state = 854 }
+
+		BRI = { load_oob = BRI_revolt }
+		set_country_flag = brittany_free
+
+	}
+}
+
+country_event = {
+	id = brittany.2
+	title = brittany.2.t
+	desc = brittany.2.d
+	picture = GFX_report_event_french_liberation
+
+	is_triggered_only = yes
+
+	option = {
+		name = brittany.2.a
+	}
+}
+
+country_event = {
+	id = brittany.3
+	title = brittany.3.t
+	desc = brittany.3.d
+	picture = GFX_report_event_french_liberation
+
+	is_triggered_only = yes
+
+	option = {
+		name = brittany.3.a
+
+	}
+}
+
+country_event = {
+	id = brittany.4
+	title = brittany.4.t
+	desc = brittany.4.d
+	picture = GFX_report_event_french_liberation
+
+	is_triggered_only = yes
+
+	option = {
+		name = brittany.4.a
+		848 = {
+ 			set_demilitarized_zone = no
+		}
+
+	}
+}
+
+country_event = {
+	id = brittany.5
+	title = brittany.5.t
+	desc = brittany.5.d
+	picture = GFX_report_event_french_liberation
+
+	is_triggered_only = yes
+
+	option = {
+		name = brittany.5.a
+		854 = {
+ 			set_demilitarized_zone = no
+		}
+
+	}
+}
+
+country_event = {
+	id = brittany.6
+	title = brittany.6.t
+	desc = brittany.6.d
+	picture = GFX_report_event_french_liberation
+
+	is_triggered_only = yes
+
+	option = {
+		name = brittany.6.a
+		add_political_power = -60
+
+	}
+
+	option = {
+		name = brittany.6.b
+		add_political_power = 60
+		14 = {
+ 			add_manpower = -8221
+		}
+		848 = {
+ 			add_manpower = -17531
+		}
+		854 = {
+ 			add_manpower = -29171
+		}
+
+		30 = {
+ 			add_manpower = 34832
+		}
+		15 = {
+ 			add_manpower = 19171
+		}
+
+	}
+}
+
+
+country_event = {
+	id = brittany.7
+	title = brittany.7.t
+	desc = brittany.7.d
+	picture = GFX_report_event_generic_peaceful_annexation
+
+	is_triggered_only = yes
+
+	option = {
+		name = brittany.7.a
+		set_country_flag = a_breton_state
+		set_politics = { ruling_party = national_socialism elections_allowed = no }
+		add_popularity = { ideology = national_socialism popularity = 0.20 }
+		create_country_leader = {
+			name = "Olier Mordrel"
+			desc = ""
+			picture = "TSB_mordrel_portrait.dds"
+			expire = "1985.1.1"
+			ideology = hitlerist
+			traits = {
+				#
+			}
+		}
+	}
+}
+

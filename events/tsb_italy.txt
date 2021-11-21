@@ -1,0 +1,38 @@
+﻿###########################
+# Italian Events
+###########################
+
+add_namespace = tsb_italy
+
+country_event = {
+	id = tsb_italy.1
+	title = tsb_italy.1.t
+	desc = tsb_italy.1.d
+	picture = GFX_report_event_royal_parade
+
+	is_triggered_only = yes
+	
+	option = {
+		name = tsb_italy.1.a
+	}
+}
+
+country_event = {
+	id = tsb_italy.2
+	title = tsb_italy.2.t
+	desc = tsb_italy.2.d
+	picture = GFX_report_event_royal_parade
+	fire_only_once = yes
+
+	trigger = {
+  		date > 1954.4.3
+  		tag = ITA
+	}
+
+	mean_time_to_happen = { days = 1}
+	
+	option = {
+		name = tsb_italy.2.a
+	}
+}
+
