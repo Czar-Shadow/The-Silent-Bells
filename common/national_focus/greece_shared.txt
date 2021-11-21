@@ -1,0 +1,699 @@
+shared_focus = {
+	id = GRE_assess_hellenic_armed_forces
+	text = GRE_assess_hellenic_armed_forces
+	icon = GFX_goal_unknown
+	cost = 5.00
+	x = 20
+	y = 0
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_hellenic_army
+	text = GRE_hellenic_army
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_assess_hellenic_armed_forces
+	}
+	cost = 5.00
+	x = 0
+	y = 1
+	relative_position_id = GRE_assess_hellenic_armed_forces
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_officer_schools
+	text = GRE_officer_schools
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_hellenic_army
+	}
+	cost = 5.00
+	x = 0
+	y = 2
+	relative_position_id = GRE_hellenic_army
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_factory_towns
+	text = GRE_factory_towns
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_officer_schools
+	}
+	cost = 5.00
+	x = 0
+	y = 1
+	relative_position_id = GRE_officer_schools
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_defensive_doctrine
+	text = GRE_defensive_doctrine
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_hellenic_army
+	}
+	mutually_exclusive = { focus = GRE_offensive_doctrine }
+	cost = 5.00
+	x = 3
+	y = 1
+	relative_position_id = GRE_hellenic_army
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_modernize_the_howitzer
+	text = GRE_modernize_the_howitzer
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_defensive_doctrine
+	}
+	cost = 5.00
+	x = 1
+	y = 1
+	relative_position_id = GRE_defensive_doctrine
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_moving_trenches
+	text = GRE_moving_trenches
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_modernize_the_howitzer
+	}
+	cost = 5.00
+	x = 0
+	y = 1
+	relative_position_id = GRE_modernize_the_howitzer
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_aegean_wall
+	text = GRE_aegean_wall
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_defensive_doctrine
+	}
+	cost = 5.00
+	x = -1
+	y = 1
+	relative_position_id = GRE_defensive_doctrine
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_fortify_bulgarian_border
+	text = GRE_fortify_bulgarian_border
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_aegean_wall
+	}
+	cost = 5.00
+	x = 0
+	y = 1
+	relative_position_id = GRE_aegean_wall
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_bunkers_in_every_town
+	text = GRE_bunkers_in_every_town
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_fortify_bulgarian_border
+	}
+	prerequisite = {
+		focus = GRE_moving_trenches
+	}
+	cost = 5.00
+	x = 1
+	y = 1
+	relative_position_id = GRE_fortify_bulgarian_border
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_offensive_doctrine
+	text = GRE_offensive_doctrine
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_hellenic_army
+	}
+	mutually_exclusive = { focus = GRE_defensive_doctrine }
+	cost = 5.00
+	x = -3
+	y = 1
+	relative_position_id = GRE_hellenic_army
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_speed_and_aggression
+	text = GRE_speed_and_aggression
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_offensive_doctrine
+	}
+	cost = 5.00
+	x = 1
+	y = 1
+	relative_position_id = GRE_offensive_doctrine
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_helicopter_research
+	text = GRE_helicopter_research
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_speed_and_aggression
+	}
+	cost = 5.00
+	x = 0
+	y = 1
+	relative_position_id = GRE_speed_and_aggression
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_mechanized_infantry
+	text = GRE_mechanized_infantry
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_offensive_doctrine
+	}
+	cost = 5.00
+	x = -1
+	y = 1
+	relative_position_id = GRE_offensive_doctrine
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_native_designs
+	text = GRE_native_designs
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_mechanized_infantry
+	}
+	cost = 5.00
+	x = 0
+	y = 1
+	relative_position_id = GRE_mechanized_infantry
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_jet_ground_support
+	text = GRE_jet_ground_support
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_native_designs
+	}
+	prerequisite = {
+		focus = GRE_helicopter_research
+	}
+	cost = 5.00
+	x = 1
+	y = 1
+	relative_position_id = GRE_native_designs
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_hellenic_navy
+	text = GRE_hellenic_navy
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_assess_hellenic_armed_forces
+	}
+	cost = 5.00
+	x = 9
+	y = 1
+	relative_position_id = GRE_assess_hellenic_armed_forces
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_phase_out_the_battleship
+	text = GRE_phase_out_the_battleship
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_hellenic_navy
+	}
+	cost = 5.00
+	x = -1
+	y = 1
+	relative_position_id = GRE_hellenic_navy
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_upgraded_submarine_designs
+	text = GRE_upgraded_submarine_designs
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_hellenic_navy
+	}
+	cost = 5.00
+	x = 1
+	y = 1
+	relative_position_id = GRE_hellenic_navy
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_request_nuclear_submarines
+	text = GRE_request_nuclear_submarines
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_upgraded_submarine_designs
+	}
+	prerequisite = {
+		focus = GRE_phase_out_the_battleship
+	}
+	cost = 5.00
+	x = 1
+	y = 1
+	relative_position_id = GRE_upgraded_submarine_designs
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_expand_athens_dockyards
+	text = GRE_expand_athens_dockyards
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_upgraded_submarine_designs
+	}
+	prerequisite = {
+		focus = GRE_phase_out_the_battleship
+	}
+	cost = 5.00
+	x = -1
+	y = 1
+	relative_position_id = GRE_upgraded_submarine_designs
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_light_and_fast
+	text = GRE_light_and_fast
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_upgraded_submarine_designs
+	}
+	prerequisite = {
+		focus = GRE_phase_out_the_battleship
+	}
+	cost = 5.00
+	x = -3
+	y = 1
+	relative_position_id = GRE_upgraded_submarine_designs
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_homing_torpedos
+	text = GRE_homing_torpedos
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_request_nuclear_submarines
+	}
+	prerequisite = {
+		focus = GRE_expand_athens_dockyards
+	}
+	prerequisite = {
+		focus = GRE_light_and_fast
+	}
+	cost = 5.00
+	x = -1
+	y = 1
+	relative_position_id = GRE_request_nuclear_submarines
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_quick_response_and_deployment_systems
+	text = GRE_quick_response_and_deployment_systems
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_request_nuclear_submarines
+	}
+	prerequisite = {
+		focus = GRE_expand_athens_dockyards
+	}
+	prerequisite = {
+		focus = GRE_light_and_fast
+	}
+	cost = 5.00
+	x = -3
+	y = 1
+	relative_position_id = GRE_request_nuclear_submarines
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_rule_the_aegean
+	text = GRE_rule_the_aegean
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_quick_response_and_deployment_systems
+	}
+	prerequisite = {
+		focus = GRE_homing_torpedos
+	}
+	cost = 5.00
+	x = -1
+	y = 1
+	relative_position_id = GRE_homing_torpedos
+
+	completion_reward = {
+		#
+	}
+}
+
+
+shared_focus = {
+	id = GRE_hellenic_air_corps
+	text = GRE_hellenic_air_corps
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_assess_hellenic_armed_forces
+	}
+	cost = 5.00
+	x = -9
+	y = 1
+	relative_position_id = GRE_assess_hellenic_armed_forces
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_update_old_jet_designs
+	text = GRE_update_old_jet_designs
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_hellenic_air_corps
+	}
+	cost = 5.00
+	x = -2
+	y = 1
+	relative_position_id = GRE_hellenic_air_corps
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_import_italian_jets
+	text = GRE_import_italian_jets
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_update_old_jet_designs
+	}
+	mutually_exclusive = { focus = GRE_import_german_jets }
+	cost = 5.00
+	x = -1
+	y = 1
+	relative_position_id = GRE_update_old_jet_designs
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_agile_jet_fighters
+	text = GRE_agile_jet_fighters
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_import_italian_jets
+	}
+	cost = 5.00
+	x = 0
+	y = 1
+	relative_position_id = GRE_import_italian_jets
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_import_german_jets
+	text = GRE_import_german_jets
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_update_old_jet_designs
+	}
+	mutually_exclusive = { focus = GRE_import_italian_jets }
+	cost = 5.00
+	x = 1
+	y = 1
+	relative_position_id = GRE_update_old_jet_designs
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_jet_bomber_designs
+	text = GRE_jet_bomber_designs
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_import_german_jets
+	}
+	cost = 5.00
+	x = 0
+	y = 1
+	relative_position_id = GRE_import_german_jets
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_go_eagles
+	text = GRE_go_eagles
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_jet_bomber_designs
+	}
+	prerequisite = {
+		focus = GRE_agile_jet_fighters
+	}
+	cost = 5.00
+	x = -1
+	y = 1
+	relative_position_id = GRE_jet_bomber_designs
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_expand_aircraft_industry
+	text = GRE_expand_aircraft_industry
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_hellenic_air_corps
+	}
+	cost = 5.00
+	x = 2
+	y = 1
+	relative_position_id = GRE_hellenic_air_corps
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_expand_industry_in_peloponnese
+	text = GRE_expand_industry_in_peloponnese
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_expand_aircraft_industry
+	}
+	cost = 5.00
+	x = 1
+	y = 1
+	relative_position_id = GRE_expand_aircraft_industry
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_effecient_jet_construction
+	text = GRE_effecient_jet_construction
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_expand_industry_in_peloponnese
+	}
+	cost = 5.00
+	x = 0
+	y = 1
+	relative_position_id = GRE_expand_industry_in_peloponnese
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_expand_airfields_in_epirius
+	text = GRE_expand_airfields_in_epirius
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_expand_aircraft_industry
+	}
+	cost = 5.00
+	x = -1
+	y = 1
+	relative_position_id = GRE_expand_aircraft_industry
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_construct_airfields_in_aegean
+	text = GRE_construct_airfields_in_aegean
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_expand_airfields_in_epirius
+	}
+	cost = 5.00
+	x = 0
+	y = 1
+	relative_position_id = GRE_expand_airfields_in_epirius
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_nationalize_key_manufacturies
+	text = GRE_nationalize_key_manufacturies
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_construct_airfields_in_aegean
+	}
+	prerequisite = {
+		focus = GRE_effecient_jet_construction
+	}
+	cost = 5.00
+	x = 1
+	y = 1
+	relative_position_id = GRE_construct_airfields_in_aegean
+
+	completion_reward = {
+		#
+	}
+}
+
+shared_focus = {
+	id = GRE_nationalize_key_manufacturies
+	text = GRE_nationalize_key_manufacturies
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = GRE_nationalize_key_manufacturies
+	}
+	cost = 5.00
+	x = 1
+	y = 1
+	relative_position_id = GRE_construct_airfields_in_aegean
+
+	completion_reward = {
+		#
+	}
+}

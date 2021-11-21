@@ -1,0 +1,15 @@
+focus_tree = {
+	id = brittany_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BRI
+		}
+	}
+	default = no
+	shared_focus = BRI_ratify_independence
+
+}

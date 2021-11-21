@@ -1,0 +1,124 @@
+shared_focus = {
+	id = BRI_ratify_independence
+	text = BRI_ratify_independence
+	icon = GFX_goal_unknown
+	cost = 3.00
+	x = 6
+	y = 0
+
+	completion_reward = {
+		country_event = { id = brittany.2 }
+	}
+}
+shared_focus = {
+	id = BRI_quell_unrest
+	text = BRI_quell_unrest
+	icon = GFX_goal_unknown
+	cost = 5.00
+	prerequisite = {
+		focus = BRI_ratify_independence
+	}
+	x = 6
+	y = 1
+
+	completion_reward = {
+		country_event = { id = brittany.3 }
+	}
+}
+shared_focus = {
+	id = BRI_secure_upper_brittany
+	text = BRI_secure_upper_brittany
+	icon = GFX_goal_unknown
+	cost = 8.00
+	prerequisite = {
+		focus = BRI_quell_unrest
+	}
+	x = 5
+	y = 2
+
+	completion_reward = {
+		country_event = { id = brittany.4 }
+	}
+}
+shared_focus = {
+	id = BRI_administer_upper_brittany
+	text = BRI_administer_upper_brittany
+	icon = GFX_goal_unknown
+	cost = 5.00
+	prerequisite = {
+		focus = BRI_secure_upper_brittany
+	}
+	x = 5
+	y = 3
+
+	completion_reward = {
+		848 = {
+ 			add_core_of = BRI
+		}
+	}
+}
+shared_focus = {
+	id = BRI_secure_nantes
+	text = BRI_secure_nantes
+	icon = GFX_goal_unknown
+	cost = 8.00
+	prerequisite = {
+		focus = BRI_quell_unrest
+	}
+	x = 7
+	y = 2
+
+	completion_reward = {
+		country_event = { id = brittany.5 }
+	}
+}
+shared_focus = {
+	id = BRI_administer_nantes
+	text = BRI_administer_nantes
+	icon = GFX_goal_unknown
+	cost = 5.00
+	prerequisite = {
+		focus = BRI_secure_nantes
+	}
+	x = 7
+	y = 3
+
+	completion_reward = {
+		854 = {
+ 			add_core_of = BRI
+		}
+	}
+}
+shared_focus = {
+	id = BRI_french_question
+	text = BRI_french_question
+	icon = GFX_goal_unknown
+	cost = 8.00
+	prerequisite = {
+		focus = BRI_administer_nantes
+	}
+	prerequisite = {
+		focus = BRI_administer_upper_brittany
+	}
+	x = 6
+	y = 4
+
+	completion_reward = {
+		country_event = { id = brittany.6 }
+	}
+}
+shared_focus = {
+	id = BRI_declare_a_breton_state
+	text = BRI_declare_a_breton_state
+	icon = GFX_goal_unknown
+	cost = 8.00
+	prerequisite = {
+		focus = BRI_french_question
+	}
+	x = 6
+	y = 5
+
+	completion_reward = {
+		country_event = { id = brittany.7 }
+	}
+}
