@@ -1,0 +1,46 @@
+﻿capital = 594
+
+oob = "GXC_1958"
+
+set_stability = 0.6
+set_war_support = 0.4
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	autocracy = 100
+}
+
+create_country_leader = {
+	name = "Zhao Yusong"
+	desc = "POLITICS_LI_ZONGREN_DESC"
+	picture = "TSB_yusong_portrait.dds"
+	expire = "1965.1.1"
+	ideology = autocracy_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Chen Jitang"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}

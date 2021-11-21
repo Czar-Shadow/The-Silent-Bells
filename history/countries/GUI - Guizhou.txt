@@ -1,0 +1,62 @@
+﻿capital = 603
+
+oob = "GUI_1958"
+
+set_stability = 0.3
+set_war_support = 0.4
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1946.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	autocracy = 71
+	fascism = 9
+	conservatism = 7
+	radical_socialism = 13
+}
+
+create_country_leader = {
+	name = "Placeholder"
+	desc = ""
+	picture = "TSB_lisan_portrait.dds"
+	expire = "1967.1.1"
+	ideology = autocracy_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Tu Yu-ming"
+	gfx = "GFX_portrait_chi_du_yuming"
+	traits = { defensive_doctrine trait_cautious armor_officer harsh_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Sun Li Jen"
+	gfx = "GFX_portrait_chi_sun_li_jen"
+	traits = { brilliant_strategist }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
