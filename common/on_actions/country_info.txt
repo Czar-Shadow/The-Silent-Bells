@@ -1,0 +1,8 @@
+on_actions = {
+    on_startup = {
+		effect = {
+			ITA = { country_event = { id = tsb_italy.1 days = 1 } }
+		}
+	}
+}
+			

@@ -45,8 +45,8 @@ PRM = {
 	color_ui = rgb { 100 108 117 }
 }
 VLG = {
-	color = rgb { 108 138 154 }
-	color_ui = rgb { 108 138 154 }
+	color = rgb { 103 96 92 }
+	color_ui = rgb { 103 96 92 }
 }
 WOL = {
 	color = rgb { 99 105 89 }
@@ -67,6 +67,10 @@ NOV = {
 URL = {
 	color = rgb { 99 102 96 }
 	color_ui = rgb { 99 102 96 }
+}
+NRR = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
 }
 KOM = {
 	color = rgb { 70 50 105 }
@@ -140,25 +144,9 @@ KEM = {
 	color = rgb { 135 54 54 }
 	color_ui = rgb { 135 54 54 }
 }
-KSK = {
-	color = rgb { 135 54 54 }
-	color_ui = rgb { 135 54 54 }
-}
-NNG = {
-	color = rgb { 70 102 61 }
-	color_ui = rgb { 70 102 61 }
-}
-SAR = {
-	color = rgb { 179 170 125 }
-	color_ui = rgb { 179 170 125 }
-}
-TVR = {
-	color = rgb { 67 116 166 }
-	color_ui = rgb { 67 116 166 }
-}
-YAR = {
-	color = rgb { 86 75 141 }
-	color_ui = rgb { 86 75 141 }
+VGR = {
+	color = rgb { 76 78 97 }
+	color_ui = rgb { 76 78 97 }
 }
 OMS = {
 	color = rgb { 56 60 64 }

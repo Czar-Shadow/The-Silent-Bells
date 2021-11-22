@@ -35,34 +35,40 @@ set_technology = {
 	fuel_refining = 1
 }
 
-set_research_slots = 2
+set_research_slots = 3
 set_convoys = 200
 set_stability = 0.35 
 set_war_support = 0.3
 
+GER = {
+    set_autonomy = {
+        target = VLG
+        autonomous_state = autonomy_puppet
+    }
+}
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 48
-	national_socialism = 25
+	national_socialism = 48
+	authoritarian_socialism = 25
 	autocracy = 13
-	authoritarian_socialism = 14
+	radical_socialism = 14
 }
 
 add_ideas = {
 }
 
 create_country_leader = {
-	name = "Andrei Vlasov"
+	name = "Maximilian von Edelsheim"
 	desc = ""
-	picture = "TSB_vlasov_portrait.dds"
+	picture = "TSB_edelsheim_portrait.dds"
 	expire = "1965.1.1"
-	ideology = fascism_subtype
+	ideology = national_socialism_subtype
 	traits = {
 		#
 	}

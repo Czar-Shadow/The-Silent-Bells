@@ -1,0 +1,25 @@
+
+state={
+	id=578
+	name="STATE_578"
+
+	history={
+		owner = KUZ
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = KUZ
+		victory_points = {
+			7789 3
+		}
+
+	}
+
+	provinces={
+		1718 4681 7655 7789 7849 7861 10613 10617 10673 10686 12174 12536 12599 
+	}
+	manpower=609304
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -55,7 +55,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 156 88 55 }
+		color = { 155 50 0 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -98,7 +98,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 88 88 88 }
+		color = { 80 80 80 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -128,51 +128,6 @@ ideologies = {
 		}
 
 	}
-
-	authoritarian_democracy = {
-	
-		types = {
-			
-			authdem_subtype = {
-			}
-		
-		}
-		
-		dynamic_faction_names = {
-		}
-		
-		color = { 115 115 115 }
-		
-		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = no
-			can_lower_tension = no
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = no
-			can_join_factions = no
-		}
-		
-		war_impact_on_world_tension = 0.25
-		faction_impact_on_world_tension = 0.1
-		
-		modifiers = {
-			#generate_wargoal_tension = 1.00
-			#join_faction_tension = 0.80
-			#lend_lease_tension = 0.50
-			#send_volunteers_tension = 0.50
-			#guarantee_tension = 0.25
-			#take_states_cost_factor = 0.25
-			#annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-		}
-
-	}
-	
-}
 
 	conservatism = {
 	
@@ -186,7 +141,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 60 60 150 }
+		color = { 0 0 150 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -229,7 +184,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 126 156 166 }
+		color = { 78 97 103 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -272,7 +227,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 179 72 108 }
+		color = { 179 27 79 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -358,7 +313,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 164 46 46 }
+		color = { 163 13 13 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -388,3 +343,48 @@ ideologies = {
 		}
 
 	}
+
+	social_nationalism = {
+	
+		types = {
+			
+			socnat_subtype = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 100 5 5 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			#generate_wargoal_tension = 1.00
+			#join_faction_tension = 0.80
+			#lend_lease_tension = 0.50
+			#send_volunteers_tension = 0.50
+			#guarantee_tension = 0.25
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
+	
+}
