@@ -3,6 +3,10 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_GER_break_the_ice"
 	texturefile = "gfx/interface/goals/GER_break_the_ice.dds"			
+	}
+	SpriteType = {
+	name = "GFX_GER_looking_forwards"
+	texturefile = "gfx/interface/goals/GER/GER_looking_forwards.png"   			
 	}	
 	SpriteType = {
 	name = "GFX_NRR_prepare_festivities"

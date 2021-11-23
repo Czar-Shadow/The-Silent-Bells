@@ -64,9 +64,9 @@ add_to_faction = KAU
 
 
 add_ideas = {
-	GER_reich_victorious
-	GER_new_order
-	GER_uneasy_party
+GER_reich_victorious
+GER_hitlers_dream
+GER_overextention
 }
 
 create_country_leader = {

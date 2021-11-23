@@ -64,8 +64,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GER_hitlers_dream.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_GER_new_order"
-		texturefile = "gfx/interface/ideas/GER_new_order.dds"
+		name = "GFX_idea_GER_overextenstion"
+		texturefile = "gfx/interface/ideas/GER_overextenstion.png"
 	}
 	spriteType = {
 		name = "GFX_idea_GER_uneasy_party"
