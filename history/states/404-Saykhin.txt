@@ -3,15 +3,16 @@ state={
 	name="STATE_404"
 
 	history={
-		owner = KAZ
+		owner = SOV
 		victory_points = {
 			7597 1
 		}
+		add_core_of = KAZ
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = KAZ
+		add_core_of = SOV
 
 	}
 
@@ -21,4 +22,6 @@ state={
 	manpower=667036
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+
+	local_supplies=0.0 
 }

@@ -9,12 +9,13 @@ state={
 	}
 
 	history={
-		owner = KAZ
+		owner = SOV
+		add_core_of = KAZ
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 
 		}
-		add_core_of = KAZ
+		add_core_of = SOV
 		victory_points = {
 			12594 1
 		}
@@ -25,4 +26,6 @@ state={
 	}
 	manpower=659223
 	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
 }

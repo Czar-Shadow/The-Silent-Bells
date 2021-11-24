@@ -10,13 +10,5 @@ tags={
 	"Ideologies"
 }
 name="The Silent Bells"
-replace_path="events"
-replace_path="history/countries"
-replace_path="common/ai_strategy_plans"
-replace_path="common/national_focus"
-replace_path="common/ideas"
-replace_path="common/country_leader"
-replace_path="common/decisions"
-replace_path="common/scripted_effects"
 supported_version="1.10.*"
 path="C:/Users/Georg/Documents/Paradox Interactive/Hearts of Iron IV/mod/The-Silent-Bells"

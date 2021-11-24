@@ -1,26 +1,29 @@
 
-state={
-	id=581
-	name="STATE_581"
-	resources={
-		chromium=40.000
-		aluminium=27.000
+state = {
+	id = 581
+	name = "STATE_581"
+	manpower = 48831
+	
+	state_category = pastoral
+	
+	resources = {
+		chromium = 40 # was: 44
+		aluminium = 27 # was: 30
 	}
 
-	history={
-		owner = RUS
+	history = {
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = RUS
-
+		add_core_of = SOV
+		add_core_of = KOM
 	}
 
-	provinces={
-		4298 4314 4802 4874 7318 7824 7898 10216 10551 11195 12187 12558 12587 12659 
+	provinces = {
+		10551 10677 11098 12393 12502 
 	}
-	manpower=48831
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+
+	local_supplies = 0.0 
 }
