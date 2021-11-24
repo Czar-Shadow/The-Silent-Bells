@@ -1,4 +1,3 @@
-GER	= "countries/Germany.txt"
 BOH	= "countries/Bohmen und Mahren.txt"
 GGN	= "countries/Generalgouvernement.txt"
 BUR	= "countries/Burgundy.txt"
