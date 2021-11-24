@@ -1,0 +1,390 @@
+ideologies = {
+	
+	national_socialism = {
+	
+		types = {
+			
+			national_socialism_subtype = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 25 25 25 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			#generate_wargoal_tension = 1.00
+			#join_faction_tension = 0.80
+			#lend_lease_tension = 0.50
+			#send_volunteers_tension = 0.50
+			#guarantee_tension = 0.25
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
+
+	fascism = {
+	
+		types = {
+			
+			fascism_subtype = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 156 88 55 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			#generate_wargoal_tension = 1.00
+			#join_faction_tension = 0.80
+			#lend_lease_tension = 0.50
+			#send_volunteers_tension = 0.50
+			#guarantee_tension = 0.25
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
+
+	autocracy = {
+	
+		types = {
+
+			autocracy_subtype = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 88 88 88 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			#generate_wargoal_tension = 1.00
+			#join_faction_tension = 0.80
+			#lend_lease_tension = 0.50
+			#send_volunteers_tension = 0.50
+			#guarantee_tension = 0.25
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
+
+	authoritarian_democracy = {
+	
+		types = {
+			
+			authdem_subtype = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 115 115 115 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			#generate_wargoal_tension = 1.00
+			#join_faction_tension = 0.80
+			#lend_lease_tension = 0.50
+			#send_volunteers_tension = 0.50
+			#guarantee_tension = 0.25
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
+	
+}
+
+	conservatism = {
+	
+		types = {
+
+			conservatism_subtype = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 60 60 150 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			#generate_wargoal_tension = 1.00
+			#join_faction_tension = 0.80
+			#lend_lease_tension = 0.50
+			#send_volunteers_tension = 0.50
+			#guarantee_tension = 0.25
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
+
+	liberalism = {
+	
+		types = {
+			
+			liberalism_subtype = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 126 156 166 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			#generate_wargoal_tension = 1.00
+			#join_faction_tension = 0.80
+			#lend_lease_tension = 0.50
+			#send_volunteers_tension = 0.50
+			#guarantee_tension = 0.25
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
+
+	social_democracy = {
+	
+		types = {
+			
+			social_democracy_subtype = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 179 72 108 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			#generate_wargoal_tension = 1.00
+			#join_faction_tension = 0.80
+			#lend_lease_tension = 0.50
+			#send_volunteers_tension = 0.50
+			#guarantee_tension = 0.25
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
+
+	radical_socialism = {
+	
+		types = {
+			
+			radical_socialism_subtype = {
+			}
+
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 196 79 87 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			#generate_wargoal_tension = 1.00
+			#join_faction_tension = 0.80
+			#lend_lease_tension = 0.50
+			#send_volunteers_tension = 0.50
+			#guarantee_tension = 0.25
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
+
+	authoritarian_socialism = {
+	
+		types = {
+			
+			authsoc_subtype = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 164 46 46 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			#generate_wargoal_tension = 1.00
+			#join_faction_tension = 0.80
+			#lend_lease_tension = 0.50
+			#send_volunteers_tension = 0.50
+			#guarantee_tension = 0.25
+			#take_states_cost_factor = 0.25
+			#annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
