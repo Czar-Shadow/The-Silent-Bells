@@ -171,8 +171,6 @@ ideologies = {
 		}
 
 	}
-	
-}
 
 	conservatism = {
 	
@@ -386,5 +384,5 @@ ideologies = {
 		
 		faction_modifiers = {
 		}
-
 	}
+}
