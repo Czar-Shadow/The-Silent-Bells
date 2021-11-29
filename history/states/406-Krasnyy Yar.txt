@@ -7,12 +7,11 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SOV
+		owner = URL
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SOV
-		add_core_of = KAZ
+		add_core_of = URL
 		victory_points = {
 			3618 1
 		}
