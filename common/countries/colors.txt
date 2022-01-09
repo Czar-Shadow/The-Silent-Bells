@@ -24,11 +24,11 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 193 171 8  }
-		color_ui = rgb { 251 222 10 }
+BEL = { color 	 = rgb { 54 54 54  }
+		color_ui = rgb { 54 54 54 }
 	  }
-HOL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+HOL = {	color = rgb { 54 54 54 }
+		color_ui = rgb { 54 54 54 }
 }
 CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
@@ -54,8 +54,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 200 100 31 }
 }
 ITA = {
 	color = rgb { 67 127 63 }
@@ -86,12 +86,12 @@ ALB = {
 	color_ui = rgb { 194 59 133 }
 }
 NOR = {
-	color = rgb { 111 71 71 }
-	color_ui = rgb { 144 92 92 }
+	color = rgb { 74, 55, 55 }
+	color_ui = rgb { 74, 55, 55 }
 }
 DEN = {
-	color = rgb { 153 116 93 }
-	color_ui = rgb { 199 151 121 }
+	color = rgb { 64, 53, 43 }
+	color_ui = rgb { 64, 53, 43 }
 }
 BUL = {
 	color = rgb { 51 155 0 }
@@ -814,4 +814,40 @@ MEL = {
 CHU = {
 	color = rgb { 191 128 64 }
 	color_ui = rgb { 134 89 45 }
+}
+BOH = {
+	color = rgb {54 54 54}
+	color_ui = rgb (54 54 54)
+}
+GGN = {
+	color = rgb {54 54 54}
+	color_ui = rgb (54 54 54)
+}
+OST = {
+	color = rgb {46 58 61}
+	color ui = rgb {46 58 61}
+}
+UKR = {
+	color = rgb {43 53 64}
+	color ui = rgb {43 53 64}
+}
+MKW = {
+	color = rgb {48 59 51}
+	color ui = rgb {48 59 51}
+}
+KAU = {
+	color = rgb {64 74 65}
+	color ui = rgb {64 74 65}
+}
+PRM = {
+	color = rgb {59 52 52}
+	color ui = rgb {59 52 52}
+}
+NOV = {
+	color = rgb {77 67 67}
+	color ui = rgb {77 67 67}
+}
+URL = {
+	color = rgb {87 69 69}
+	color ui = rgb {87 69 69}
 }
