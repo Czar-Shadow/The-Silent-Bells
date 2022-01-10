@@ -369,8 +369,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 43 53 64 }
-	color_ui = rgb { 43 53 64 }	
+	color = rgb { 96 96 96 }
+	color_ui = rgb { 96 96 96 }	
 }
 
 AZR = {
@@ -823,10 +823,6 @@ GGN = {
 	color = rgb {96 96 96}
 	color_ui = rgb (96 96 96)
 }
-OST = {
-	color = rgb {96 96 96}
-	color ui = rgb {96 96 96}
-}
 UKR = {
 	color = rgb {96 96 96}
 	color ui = rgb {96 96 96}
@@ -848,6 +844,10 @@ NOV = {
 	color ui = rgb {96 96 96}
 }
 URL = {
+	color = rgb {96 96 96}
+	color ui = rgb {96 96 96}
+}
+OST = {
 	color = rgb {96 96 96}
 	color ui = rgb {96 96 96}
 }

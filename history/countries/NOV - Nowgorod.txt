@@ -1,4 +1,4 @@
-﻿capital = 263
+﻿capital = 214
 
 oob = "NOV_1958"
 
@@ -39,6 +39,13 @@ set_research_slots = 3
 set_convoys = 200
 set_stability = 0.35
 set_war_support = 0.3
+
+GER = {
+    set_autonomy = {
+        target = NOV
+        autonomous_state = autonomy_puppet
+    }
+}
 
 set_politics = {
 	ruling_party = national_socialism
