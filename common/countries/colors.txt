@@ -817,11 +817,11 @@ CHU = {
 }
 BOH = {
 	color = rgb {96 96 96}
-	color_ui = rgb (96 96 96)
+	color_ui = rgb {96 96 96}
 }
 GGN = {
 	color = rgb {96 96 96}
-	color_ui = rgb (96 96 96)
+	color_ui = rgb {96 96 9}
 }
 UKR = {
 	color = rgb {96 96 96}
