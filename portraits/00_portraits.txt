@@ -1,0 +1,447 @@
+continent = {
+	name = europe
+	army = {
+		male = {
+			portrait_south_america_generic_7
+		}
+	}
+	
+	navy = {
+		male = {
+			"portrait_south_america_generic_7"
+		}
+	}
+	
+	political = {
+		national_socialism = {
+				male = { 
+					"portrait_south_america_generic_7"
+			}
+		}
+		fascism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		autocracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		conservatism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		liberalism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		social_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		radical_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			portrait_south_america_generic_7
+		}
+	}
+	
+	navy = {
+		male = {
+			"portrait_south_america_generic_7"
+		}
+	}
+	
+	political = {
+		national_socialism = {
+				male = { 
+					"portrait_south_america_generic_7"
+			}
+		}
+		fascism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		autocracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		conservatism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		liberalism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		social_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		radical_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			portrait_south_america_generic_7
+		}
+	}
+	
+	navy = {
+		male = {
+			"portrait_south_america_generic_7"
+		}
+	}
+	
+	political = {
+		national_socialism = {
+				male = { 
+					"portrait_south_america_generic_7"
+			}
+		}
+		fascism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		autocracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		conservatism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		liberalism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		social_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		radical_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			portrait_south_america_generic_7
+		}
+	}
+	
+	navy = {
+		male = {
+			"portrait_south_america_generic_7"
+		}
+	}
+	
+	political = {
+		national_socialism = {
+				male = { 
+					"portrait_south_america_generic_7"
+			}
+		}
+		fascism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		autocracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		conservatism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		liberalism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		social_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		radical_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			portrait_south_america_generic_7
+		}
+	}
+	
+	navy = {
+		male = {
+			"portrait_south_america_generic_7"
+		}
+	}
+	
+	political = {
+		national_socialism = {
+				male = { 
+					"portrait_south_america_generic_7"
+			}
+		}
+		fascism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		autocracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		conservatism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		liberalism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		social_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		radical_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			portrait_south_america_generic_7
+		}
+	}
+	
+	navy = {
+		male = {
+			"portrait_south_america_generic_7"
+		}
+	}
+	
+	political = {
+		national_socialism = {
+				male = { 
+					"portrait_south_america_generic_7"
+			}
+		}
+		fascism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		autocracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		conservatism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		liberalism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		social_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		radical_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			portrait_south_america_generic_7
+		}
+	}
+	
+	navy = {
+		male = {
+			"portrait_south_america_generic_7"
+		}
+	}
+	
+	political = {
+		national_socialism = {
+				male = { 
+					"portrait_south_america_generic_7"
+			}
+		}
+		fascism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		autocracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		conservatism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		liberalism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		social_democracy = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		radical_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+		authoritarian_socialism = {
+				male = { 
+					"portrait_south_america_generic_7" 
+			}
+		}
+	}
+
+}
